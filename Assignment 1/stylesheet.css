@@ -1,0 +1,113 @@
+body{
+    
+    font-family:  sans-serif
+}
+#table1{
+    border-radius: 20px;
+    background: url(images/BG.png) ;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 0px; 
+    width:50px;
+    height: 100px;
+	border:0px;
+    width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:10px;
+  
+}
+   
+td{
+	padding: 5px;
+}
+
+	   table#tab1{
+		   
+		   border:0px;
+	   }
+	    table#t{
+		   height:100px;
+	   }
+	   
+	    table#t,th{
+		  
+		   text-align : center;
+	   }
+	  .row1{
+		  background-color:#AFB0F0;
+          color: black;
+		   
+	   }
+.row2{
+		  background-color: white;
+		   
+	   }
+	   
+	   #t02{
+		   background-color: white;
+		   color: black;
+	   }
+	   #name{
+  
+		   font-size:30px;
+		   text-align:center;
+           color: black;
+		   font-weight: Bold;
+	   }
+	   
+	 	   .row3{
+		   color: black;
+		   text-align:center;
+		   font-weight: bold;
+		   font-size: 18px;
+	   }
+	   #t{width:85%;
+		   margin-left:auto;
+		  margin-right:auto;
+		  
+		  border-spacing:0px;}
+	  img.profilepic {
+		  
+		  height:200px;
+          width:200px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto; 
+          border-radius: 50%;
+}
+	
+	a:hover{
+		background-color:red;
+        opacity: 0.9;
+	} 
+	
+.base{
+    color: black;
+    font-size: 30px;    
+	list-style-type: square;
+	
+}
+
+.list
+{
+    font-size : 30px;
+	color: black;
+}
+
+.listtype{
+    list-style-type:square;
+	color: black;
+}
+
+.quote{
+    color: black;
+     font-size: 30px;
+}
+
+.quoteword{
+    font-style: italic;
+    color: black;
+    font-size: 25px;
+}
+
