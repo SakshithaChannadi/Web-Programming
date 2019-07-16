@@ -1,0 +1,44 @@
+html{
+	background-image: url("frontpage.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding:20px;
+}
+
+h1{
+	text-align:center;
+	color:white;
+	font-family:Georgia;
+	font-weight:bold;
+	padding-top: 100px;
+}
+
+.class1 {
+    float:center;
+	margin-left:575px;
+    padding:0px;	      
+}
+
+ .class2 {
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+	font-weight: bold;
+	font-family:Georgia;
+	font-size:20px;
+}
+
+.menu{
+ display: inline;
+}
+
+a:hover {
+  background-color: black;
+}
+
+.img1{  float: left;
+padding-left: 500px;
+}
+.img2{  float: left;
+padding-left: 50px;
+}

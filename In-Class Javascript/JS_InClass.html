@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>JavaScript Form validation</title>
+<link rel="stylesheet" href="style.css">
+<script>
+
+function printError(elemId, hintMsg) {
+    document.getElementById(elemId).innerHTML = hintMsg;
+}
+
+function validateForm() {
+    // Retrieving the values of form elements 
+    var ID = document.contactForm.ID.value;
+    var FirstName = document.contactForm.FirstName.value;
+    var LastName = document.contactForm.LastName.value;
+	// Defining error variables with a default value
+    var IDErr = FirstNameErr = LastNameErr = true;
+    var errors = [];
+    // Validate ID
+    if(ID == "") {
+        printError("IDErr", "Please enter your ID");
+        errors.push("ID")
+    }else {
+            printError("IDErr", "");
+            IDErr = false;
+        }
+    
+    // Validate FirstName address
+    if(FirstName == "") {
+        printError("FirstNameErr", "Please enter your First Name");
+        errors.push("FirstName")
+    }else{
+            printError("FirstNameErr", "");
+            FirstNameErr = false;
+        }
+    
+    // Validate LastName number
+    if(LastName == "") {
+        printError("LastNameErr", "Please enter your Last Name");
+        errors.push("LastName")
+    }else{
+            printError("LastNameErr", "");
+            LastNameErr = false;
+        }
+    // Prevent the form from being submitted if there are any errors
+    if((IDErr || FirstNameErr || LastNameErr) == true) {
+        var msg = "These fields should be filled " + errors;
+        alert(msg)
+       return false;
+    } else {
+        // Creating a string from input data for preview
+        var dataPreview = "You've entered the following details: \n" +
+                          "ID: " + ID + "\n" +
+                          "FirstName: " + FirstName + "\n" +
+                          "LastName: " + LastName + "\n";
+       alert(dataPreview);
+    }
+};
+</script>
+</head>
+<body>
+<form name="contactForm" onsubmit="return validateForm()" action="message.html" method="post">
+    <h2>Validation Form</h2>
+    <div class="row">
+        <label>ID:</label>
+        <input type="text" name="ID">
+        <div class="error" id="IDErr"></div>
+    </div>
+	<br>
+    <div class="row">
+        <label>FirstName:</label>
+        <input type="text" name="FirstName">
+        <div class="error" id="FirstNameErr"></div>
+    </div>
+	<br>
+    <div class="row">
+        <label>LastName</label>
+        <input type="text" name="LastName" maxlength="10">
+        <div class="error" id="LastNameErr"></div>
+    </div>
+	<br>
+    <div class="row">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</body>
+</html>

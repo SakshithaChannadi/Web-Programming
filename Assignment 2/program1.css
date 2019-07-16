@@ -1,0 +1,97 @@
+body{
+	background-color:#FFCC00;
+	font-family:Georgia;
+	padding:20px;
+	color: #000000;
+    }
+
+h1,h2,caption{
+	background-color:#F0F0F0;
+	text-align:center;
+	color:#A4A400;
+	font-family:Georgia;
+	font-weight:bold;
+	letter-spacing:2px;
+}
+
+.base{
+	background-color:white;
+	background-image:url("wallpaper.jpg");
+}
+.class1 {
+    float:left;
+	margin-left:50px;
+    padding:0px;	      
+}
+
+.menu{
+ display: inline;
+ font-family:"Berlin Sans FB";
+ color:#F0F0F0;
+}
+ .class2 {
+    background-color: #DEB887;
+    color: blue;
+    padding: 6px;
+    text-decoration: none;
+	border-right-color:blue;
+	border-right-style:solid;
+	border-right-width:10px;
+	overflow:hidden;
+}
+ .class3 {
+    background-color: #DEB887;
+    color: #A0522D;
+    padding: 6px;
+    text-decoration: none;
+	border-right-color:#A0522D;
+	border-right-style:solid;
+	border-right-width:10px;
+	overflow:hidden;
+}
+
+
+span.bold{
+	font-weight:bold;	
+}
+
+span.c{background-color:#003366;}
+
+th{background-color:#003366;
+color:#FFFFFF;
+border: 2px solid #FFFFFF;
+padding:5px;
+border-collapse:collapse;
+}
+
+td{background-color:#CC9933;
+color:#FFFFFF;
+border-color:#FFFFFF;
+border: 2px solid #FFFFFF;
+padding:5px;
+border-collapse:collapse;
+}
+table{background-color:#CC9933;
+border-collapse:collapse;
+color:#FFFFFF;
+border-color:#FFFFFF;
+border: 1px solid #FFFFFF;
+margin-top:20px;
+}
+
+.a00{width:500px; background-color:#FAD391; }
+.a01{background-color:#FAD391; text-align:center;}
+.a02{background-color:#F9E4C1; text-align:center;}
+.a03{background-color:#FFFFFF;}
+.a04{width:50%; float:left;}
+.a05{background-color:#000000; padding-right:60px;}
+.a06{background-color:#000000; padding-right:45px;}
+
+
+ul {
+    list-style-image: url('bullet.png');
+}
+
+.img{float:right;
+}
+

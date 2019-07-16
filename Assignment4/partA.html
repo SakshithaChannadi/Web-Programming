@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+    <meta charset="UTF-8">
+    <style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #D68411;
+    }
+
+    td, th {
+    border: 1px solid #B19E84;
+    text-align: center;
+    padding: 8px;
+    }
+	h2{
+	text-align: center;
+	align: center;
+	margin-top: 50px;
+	}
+.buttons{
+text-align: center;
+	align: center;
+	margin-top: 50px;
+
+}
+    tr:nth-child(even) {
+    background-color: #B19E84;
+    }
+    </style>
+    <script type="text/javascript" src="partA.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <title>Part A</title>
+    </head>
+<body>    
+    <h2> Assignment 4</h2>
+    <table>
+       
+        <tr>
+            <td><a href="partA.html">4A</a></td>
+            <td><a href="partB.html">4B</a></td>
+            <td><a href="partC.html">4C</a></td>
+            <br/>
+        </tr>
+    </table>
+	<div class="buttons">
+<h2>Click Enter to go to the Payroll</h2>
+<button onclick="enterHour()">Enter</button>
+<button onclick="printTable()">Table</button>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div id="table">
+</div>
+<p id="total"></p>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<html>
+	<head><title>Part C</title>
+	
+	
+	
+	  <style>
+    table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #D68411;
+    }
+
+    td, th {
+    border: 1px solid #B19E84;
+    text-align: center;
+    padding: 8px;
+    }
+
+    tr:nth-child(even) {
+    background-color: #B19E84;
+    }
+	.full {
+	text-align: center;
+	align: center;
+	margin-top: 50px;
+}
+    </style>
+	<link rel="stylesheet" type="text/css" href="csspart3.css">
+	</head>
+	<body>
+	
+	<p style = "text-align: center">
+
+<h2> Assignment 4</h2>	
+
+    <table>
+       
+        <tr>
+            <td><a href="partA.html">4A</a></td>
+            <td><a href="partB.html">4B</a></td>
+            <td><a href="partC.html">4C</a></td>
+            <br/>
+        </tr>
+    </table>
+	<br/>
+<h2> Match Images</h1>
+RULES:<br/>Select images in pairs and match them.<br/>Try to match one image with it's copy.<br/>Based on the time you choose, the images will be displayed for certain time, before you can start picking pairs.<br/>You are given 3 levels of difficulty 3, 5, 8 seconds to memorize the locations, before the images flip over. <br/>
+
+	
+	TIME LEFT:
+    <div id="div1"></div><br>
+	<div id="div2"></div><br>
+	<div ID="div3" align="center"></div> 
+	   <p>SELECT THE PAIR OF IMAGES TO MATCH:</p>
+		<select id = "imagenum">
+			<option value="8">8</option>
+			<option value="10">10</option>
+			<option value="12">12</option>
+		</select>
+		<br>
+		<p>SELECT NUMBER OF SECONDS:</p>
+		<select id = "seconds">
+			<option value="3">3</option>
+			<option value="5">5</option>
+			<option value="8">8</option>
+		</select>
+		<br><br/>
+		<input type="button" value="READY" onclick= "newtable();timeleft();">
+			<table id = "div4">
+			</table>
+		<script src = "partC.js">	
+			
+		</script>	
+		<br/>
+	
+	</body>
+
+
+<html>
